@@ -1,0 +1,18 @@
+{
+  "name": "contact-app-cli",
+  "version": "2.0.0",
+  "description": "Contact management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza Zahidul Islam",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^8.1.1",
+    "mongoose": "^5.12.14"
+  }
+}
