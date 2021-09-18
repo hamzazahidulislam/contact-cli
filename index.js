@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to db
-const db = mongoose.connect('mongodb://localhost:27017/contact-app-cli', {
+const db = mongoose.connect('mongodb://localhost:27017/contact-app', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
